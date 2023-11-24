@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+img{
+    height: 50%;
+    width: 50%;
+}
+.pok{
+    background-color: #B0D9B1;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-top: -600px;
+    position: relative;
+    display: block;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+p{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.about{
+    text-align: center;
+    background-color: #B0D9B1;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.about p{
+    font-size:20px;
+    margin-top: 1%;
+    margin-left:50% ;
+    line-height: 40px;
+}
+.money{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+}
+.strike{
+    color: red;
+}
+.star-ratings{
+    height: 25px;
+    width: 65px;
+    margin-top:-20px;
+    letter-spacing: 20px;
+    display:inline-block;
+    margin-left: 80px;
+    margin-left: 600px ;
+}
+.rate{
+    margin-left: 750px;
+    margin-top: -37px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-bottom: -115px;
+    margin-left: 50px;
+    padding: 0 0;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    margin-top:-20px ;
+}
+#header1{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 80px;
+    background-color: #FF6000;
+    background-size: 300px;
+    height: 115px;
+    font-size: 60px;
+    align-items: center;
+}
+.elements{
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-left: 65px;
+    background-color: #454545;
+}
+#tools{
+    display: flex;
+    background-color:#454545 ;
+}
+.elements:hover{
+    background-color: #FF6000;
+}
+.bt:hover{
+    background-color: #FF6000;
+}
+.navbt:hover{
+    background-color: #FFE17B;
+}
+.bt{
+    background-color: #454545;
+    font-size: 20px;  
+    border: none;
+    color: azure;
+    padding: 10px;
+}
+#glass{
+    padding:12px;
+    background-color: #B0D9B1;
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 45px;
+    cursor: pointer;
+}
+#glass:hover{
+    background-color:burlywood ;
+}
+.search{
+    width: 40%;
+    height: 40px;
+    margin-left: 380px;
+    background-color: #eff0f5;
+    padding: 8px;
+    font-size: 20px;
+    display: inline-block;
+    border: none;
+}
+.searchbar{
+    background-color:#FFA559;
+    padding:30px;
+}
+.size-big{
+    display:block;
+    padding: 0;
+    margin-left: 53%;
+}
+.size{
+    box-sizing: border-box;
+    display: inline-flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    background-color: aliceblue;
+    border-radius: 2px;
+    border: 1px solid black;
+    position: relative;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+    margin-top: 49px;
+}
+.size:hover{
+    background-color:#FFA559 ;
+}
+/* h6{
+    display: block;
+    font-size: 1.03rem;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-left:300px ;
+} */
+.add-buy{
+    display:block;
+    padding: 0;
+    margin-left: 53%;
+}
+.hi{
+    box-sizing: border-box;
+    display: inline-flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    background-color: aliceblue;
+    border-radius: 2px;
+    border: 1px solid black;
+    position: relative;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+    margin-top: 34px;    
+}
+.hi:hover{
+    background-color: #FFA559;
+}
+.quantity-dad {
+    display: flex;
+}
+.input-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #060606;
+}
+.quantity {
+    width: 70px;
+    height: 25px;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+.items-quantity {
+    display: flex;
+    margin: 19px;
+}
+.go-down,
+.go-up {
+    margin: 0;
+    height: 25px;
+    border: none;
+}
+.go-down:hover,
+.go-up:hover {
+    cursor: pointer;
+}
+.quantity-wrap {
+    margin-right: 12px;
+}
+.quantity-letter{
+    margin-left: 800px;
+}
+h3{
+    margin-top: 15px;
+}
